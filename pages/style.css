@@ -26,6 +26,7 @@ body {
     font-size: 1.53rem;
   }
 }
+
 @media (max-width: 382px) {
   body {
     font-size: 1.35rem;
@@ -56,18 +57,23 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.35em;
 }
+
 h2 {
   font-size: 2em;
 }
+
 h3 {
   font-size: 1.75em;
 }
+
 h4 {
   font-size: 1.5em;
 }
+
 h5 {
   font-size: 1.25em;
 }
+
 h6 {
   font-size: 1em;
 }
@@ -86,15 +92,31 @@ hr {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
   color: #88c0d0;
+  border-radius: 2px;
+  outline: 2px solid transparent;
+  transition: outline 0.2s ease-in-out;
 }
+
 a:visited {
-  color: #81a1c1;
+  color: #b48ead;
 }
+
 a:hover {
   color: #8fbcbb;
-  border-bottom: 2px solid #8fbcbb;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+a:focus {
+  outline: 2px solid #88c0d0;
+  outline-offset: 2px;
+}
+
+a:active {
+  color: #ebcb8b;
 }
 
 ul {
@@ -169,6 +191,7 @@ td, th {
 input, textarea {
   border: 1px solid #4c566a;
 }
+
 input:focus, textarea:focus {
   border: 1px solid #88c0d0;
 }
