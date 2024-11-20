@@ -6,6 +6,8 @@
 I bought this domain on Nov. 19, 2024, give me a couple of days to cook up some
 examples.
 
+Download the poster [here](/poster.pdf).
+
 ## It's not just me
 
 - 2024 -
