@@ -1,5 +1,8 @@
 # Learn a useful language
 
+> It's a joke! Don't take it seriously ;) I just want to yap about why I dislike
+> Racket.
+
 I bought this domain on Nov. 19, 2024, give me a couple of days to cook up some
 examples.
 
@@ -23,11 +26,9 @@ examples.
 This site is built with:
 
 - [Soupault](https://github.com/pataphysicalsociety/soupault): static site
-  generator written in OCaml
-- [Pandoc](https://github.com/jgm/pandoc): universal markup converter written in
-  Haskell
-- [Nix](https://github.com/nixos/nix): purely functional package manager written
-  in C++
+  generator (OCaml)
+- [Pandoc](https://github.com/jgm/pandoc): universal markup converter (Haskell)
+- [Nix](https://github.com/nixos/nix): purely functional package manager
 
 Don't say it's a good language for teaching functional programming paradigm,
 there are plenty good alternatives.
@@ -38,9 +39,9 @@ Prove me wrong.
 
 ## Thoughts?
 
-Comrades? Say hi!
+Comrades? Say hi or send what you want me to add here!
 
-Racket lovers? Do your worst.
+Racket lovers? Opinion rejected.
 
 ```shell
 echo -n 'YnJhY2tldHNAcmt0LmxvbAo=' | base64 --decode
