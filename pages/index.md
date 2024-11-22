@@ -3,10 +3,58 @@
 > It's a joke! Don't take it seriously ;) I just want to yap about why I dislike
 > Racket.
 
+[Download the poster here](/poster.pdf).
+
 I bought this domain on Nov. 19, 2024, give me a couple of days to cook up some
 examples.
 
-[Download the poster here](/poster.pdf).
+Khoury is known for pumping top-notch engineers ready for the industry. Having
+students learn something that's practically nowhere to be found (see poster)
+feels a bit off-brand for our co-op program right?
+
+## The syntax
+
+Racket syntax — where parentheses are on a mission to outnumber the atoms in our
+universe. If any control flow is needed in your logic, and soon enough you will
+be lost in a sea of brackets, it's almost poetic, in a tragic kind of way.
+
+Let's say we have this problem (from some random
+[GitHub repo](https://github.com/MarkHarrison03/Racket/blob/a54b94ec9d6bfe21657afbddb85aa692e98ec039/Palindrome%20Checker#L9-L15)):
+
+> Write a function that returns whether the input is a palindrome or not,
+> regardless of if the input value was a list, an integer, a floating point
+> number or a string.
+
+Look at this insanity:
+
+```rkt
+(define Palindrome (lambda (x) (if ( list? x) (listPalindromeChecker x)
+                                   (if (exact-integer? x) (integerPalindromeChecker  x)
+                                       (if (boolean? x) '(invalid input)
+                                           (if (flonum? x) (floatPalindromeChecker x)
+                                               (if (string? x) (stringPalindromeChecker x) (error '(whoops)))))))))
+```
+
+## Typed Racket
+
+Add something more here...
+
+## Common unjustifiable justifications
+
+"Racket is great for teaching the fundamentals of functional programming!"
+
+Yeah, if the fundamentals include a side lesson in how to fear parentheses
+forever. There are plenty of functional languages that won't leave you feeling
+like you need therapy after debugging a simple script.
+
+"Racket is used for academic research and prototyping!"
+
+Absolutely. It's great for the kind of projects that are destined to never leave
+the lab. If your goal is to create something that lives exclusively in PDF
+papers and never hits the real world, Racket is perfect. But for practical use?
+Well, maybe stick to a language that actually has some friends outside academia.
+
+Add something more here...
 
 ## It's not just me
 
@@ -35,13 +83,13 @@ This site is built with:
 Don't say it's a good language for teaching functional programming paradigm,
 there are plenty good alternatives.
 
-There's exactly 0 production-ready and widely-used software written in Racket
-that I know since the very beginning of my programming journey (~9 years ago).
-Prove me wrong.
+There’s almost 0 production-ready and widely-used software written in Racket
+that I know of since the beginning of my programming journey (~9 years ago).
+Happy to be proven wrong!
 
 ## Thoughts?
 
-Comrades? Say hi or send what you want me to add here!
+Comrades? Say hi or send me more examples of Racket confusion!
 
 Racket lovers? Opinion rejected.
 
