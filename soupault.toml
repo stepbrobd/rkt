@@ -14,19 +14,25 @@
   page_file_extensions = ["html", "md"]
   keep_extensions = ["html"]
   default_content_action = "append_child"
-  default_content_selector = "body"
+  default_content_selector = "main"
   default_extension = "html"
   default_template_file = "templates/main.html"
  
 [preprocessors]
   md = "pandoc -f commonmark+smart -t html"
 
-[widgets.page-title]
-  widget = "title"
-  selector = "h1"
-  force = true
+[widgets.insert-footer]
+  widget = "include"
+  selector = "body"
+  action = "append_child"
+  file = "templates/footer.html"
 
 [widgets.no-blink]
   widget = "delete_element"
   selector = "blink"
   delete_all = true
+
+[widgets.page-title]
+  widget = "title"
+  selector = "h1"
+  force = true
