@@ -8,7 +8,7 @@
 I bought this domain on Nov. 19, 2024, give me a couple of days to cook up some
 examples.
 
-Khoury is known for pumping top-notch engineers ready for the industry. Having
+Khoury is known for pumping top-notch engineers into the industry. Having
 students learn something that's practically nowhere to be found (see poster)
 feels a bit off-brand for our co-op program right?
 
@@ -41,13 +41,13 @@ Add something more here...
 
 ## Common unjustifiable justifications
 
-"Racket is great for teaching the fundamentals of functional programming!"
+"Racket is great for teaching the fundamentals of FP"
 
-Yeah, if the fundamentals include a side lesson in how to fear parentheses
-forever. There are plenty of functional languages that won't leave you feeling
-like you need therapy after debugging a simple script.
+If the fundamentals include a side lesson in how to fear parentheses forever.
+There are plenty of functional languages that won't leave you feeling like you
+need therapy after debugging a simple script.
 
-"Racket is used for academic research and prototyping!"
+"Racket is used for academic research"
 
 Absolutely. It's great for the kind of projects that are destined to never leave
 the lab. If your goal is to create something that lives exclusively in PDF
@@ -83,9 +83,9 @@ This site is built with:
 Don't say it's a good language for teaching functional programming paradigm,
 there are plenty good alternatives.
 
-There’s almost 0 production-ready and widely-used software written in Racket
+There’s exactly 0 production-ready and widely-used software written in Racket
 that I know of since the beginning of my programming journey (~9 years ago).
-Happy to be proven wrong!
+Happy to be proven wrong.
 
 ## Thoughts?
 
