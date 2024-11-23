@@ -96,3 +96,21 @@ Racket lovers? Opinion rejected.
 ```shell
 echo -n 'YnJhY2tldHNAcmt0LmxvbAo=' | base64 --decode
 ```
+
+## Spread the word
+
+Don't worry, it's a self-hosted instance of
+[Plausible Analytics](https://github.com/plausible/analytics) (written in Elixir
+btw, not Racket).
+
+<iframe
+    plausible-embed
+    src="https://stats.rkt.lol/share/rkt.lol?auth=Hdi1lJ1AZvsf8XzrOvcf6&embed=true&theme=dark&background=%232E3440"
+    frameborder="0"
+    loading="lazy"
+    scrolling="no"
+    style="width: 100%; min-width: 100%; height: 1600px;"
+    title="Plausible Analytics"
+>
+</iframe>
+<script async src="https://stats.rkt.lol/js/embed.host.js"></script>
