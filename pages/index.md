@@ -105,7 +105,7 @@ btw, not Racket).
 
 <iframe
     plausible-embed
-    src="https://stats.rkt.lol/share/rkt.lol?auth=Hdi1lJ1AZvsf8XzrOvcf6&embed=true&theme=dark&background=%232E3440"
+    src="https://stats.rkt.lol/share/rkt.lol?auth=Ik0TqrDWTZctAPWiz_Ba5&embed=true&theme=dark&background=%232E3440"
     frameborder="0"
     loading="lazy"
     scrolling="no"
